@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.parent1{
+    
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.parent2{
+    /* padding: 50px; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 50px;
+
+}
+.card{
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+    /* width: ; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 70px;
+    height: 230px;
+    position: relative;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    border: 8px solid white;
+    top: 30px;
+    left: 188px;
+}
+h3{
+    color: lightgrey;
+position: relative;
+margin-top: 20px;
+}
+h3:after {
+    content: "\f2b5";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: red;
+    font-size: 22px;
+    /* padding-right: 0.5em; */
+    position: absolute;
+    top: -2px;
+    left: -36px;
+}
+
+.l1:before {
+    content: "\f2b5";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: white;
+    font-size: 38px;
+    /* padding-right: 0.5em; */
+    position: absolute;
+    top: 27px;
+    left: 16px;
+}
+.l2:before {
+    content: "\f080";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: white;
+    font-size: 38px;
+    /* padding-right: 0.5em; */
+    position: absolute;
+    top: 27px;
+    left: 16px;
+}
+.l3:before {
+    content: "\f012";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: white;
+    font-size: 38px;
+    /* padding-right: 0.5em; */
+    position: absolute;
+    top: 27px;
+    left: 16px;
+}
+i{
+    color: red;
+}
+.l4:before {
+    content: "\f200";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: white;
+    font-size: 38px;
+    /* padding-right: 0.5em; */
+    position: absolute;
+    top: 27px;
+    left: 16px;
+}
+
+.card:hover{
+    background-color: lightgrey;
+}
+.de{
+
+    
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    height: 250px;
+    /* text-align: start; */
+ 
+}
+img{
+    margin-top: 40px;
+}
+
+a{
+    position: absolute;
+    bottom: -5px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+    /* padding: 100px,16px; */
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid lightgray;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color:red;
+    transition: all 2s;
+}
+.footer{
+    height: 40px;
+    width: 25%;
+    display: flex;
+    color: grey;
+    margin-top: 30px;
+    border: 2px solid lightgray;
+    padding: 8px,16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer p{
+    display: inline;
+}
+button{
+    cursor: pointer;
+    border: none;
+text-decoration: none;
+color: red;
+
+}
